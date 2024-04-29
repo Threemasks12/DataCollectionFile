@@ -8,13 +8,6 @@ class FileReader
     {
         int counterWins = 0;
         int counterLoss = 0;
-        
-        if (args.Length == 0)
-        {
-            Console.WriteLine("Please provide a file path as an argument.");
-            return;
-        }
-
         string searchTerm1 = "you lose"; 
         string searchTerm2 = "You win";
         
